@@ -4,17 +4,20 @@
     // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
     
+    configurations
+    
+        
 
 
     die
-    
 
+    
 
 
     Aktuelle
     Aktuelle 
+
     Aktuelle
     debugger
 
@@ -23,36 +26,69 @@
 
 
         {
+
             "name": "Python: Flask",
+
             "type": "python",
+
             "request": "launch",
+
             "module": "flask",
+
             "env": {
+
                 "FLASK_APP": "app.py",
+
                 "FLASK_DEBUG": "1"
+
             },
+
             "args": [
+
                 "run",
+
                 "--no-debugger",
+
                 "--no-reload"
+
             ],
+
             "jinja": true,
+
             "justMyCode": true
+
         },
+
         {
+
             "name": "Attach to Chrome",
+
             "port": 9222,
+
             "request": "attach",
+
             "type": "chrome",
+
             "webRoot": "${workspaceFolder}"
+
         },
+
         {
+
             "name": "Python: Aktuelle Datei",
+
             "type": "python",
+
             "request": "launch",
+
             "program": "${file}",
+
             "console": "integratedTerminal",
+
             "justMyCode": true
+
         }
+
     ]
+
 }
