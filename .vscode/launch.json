@@ -4,20 +4,23 @@
     // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-    
-    configurations
-    
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
         
 
 
-    die
 
+    die
     
+
 
 
     Aktuelle
     Aktuelle 
-
     Aktuelle
     debugger
 
@@ -26,41 +29,23 @@
 
 
         {
-
             "name": "Python: Flask",
-
             "type": "python",
-
             "request": "launch",
-
             "module": "flask",
-
             "env": {
-
                 "FLASK_APP": "app.py",
-
                 "FLASK_DEBUG": "1"
-
             },
-
             "args": [
-
                 "run",
-
                 "--no-debugger",
-
                 "--no-reload"
-
             ],
-
             "jinja": true,
-
             "justMyCode": true
-
         },
-
         {
-
             "name": "Attach to Chrome",
 
             "port": 9222,
