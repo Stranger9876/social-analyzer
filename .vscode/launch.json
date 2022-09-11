@@ -4,25 +4,32 @@
     // Weitere Informationen finden Sie unter https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+      {
+        "name": "Attach to Chrome",
+        "port": 9222,
+        "request": "attach",
+        "type": "chrome",
+        "webRoot": "${workspaceFolder}"
+      },
 
 
 
 
 
-    
+
+
     configurations
-    
-        
+
+
 
 
     die
 
-    
+
 
 
     Aktuelle
-    Aktuelle 
+    Aktuelle
 
     Aktuelle
     debugger
